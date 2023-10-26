@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>05. Misión ¡Aviso de golpes! | Interactúa con el mundo de EASYPlug y ArduinoBlocks </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Pablo Moraga Romero" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.8 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body class="exe-web-site" id="exe-node-4"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Interactúa con el mundo de EASYPlug y ArduinoBlocks</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">Interactúa con el mundo de EASYPlug</a></li>
+   <li><a href="conoce_easy_plug.html" class="no-ch">Conoce EASY Plug</a></li>
+   <li><a href="explora_easyplug_y_arduinoblocks.html" class="no-ch">Explora EASYPlug y ArduinoBlocks</a></li>
+   <li class="current-page-parent"><a href="misiones_con_arduinoblocks_y_easyplug.html" class="current-page-parent daddy">Misiones con ArduinoBlocks y EASYPlug</a>
+   <ul>
+      <li><a href="01_misin_ilumina_el_mundo.html" class="no-ch">01. Misión Ilumina el mundo</a></li>
+      <li><a href="02_misin_tocando_encenders.html" class="no-ch">02. Misión Tocando encenderás</a></li>
+      <li><a href="03_misin_prohibido_el_silencio.html" class="no-ch">03. Misión ¡Prohibido el silencio!</a></li>
+      <li><a href="04_misin_encendido_de_farolas.html" class="no-ch">04. Misión Encendido de farolas</a></li>
+      <li id="active"><a href="05_misin_aviso_de_golpes.html" class="active no-ch">05. Misión ¡Aviso de golpes!</a></li>
+      <li><a href="06_misin_final_un_fantasma_para_halloween.html" class="no-ch">06. Misión final ¡Un fantasma para Halloween!</a></li>
+   </ul>
+   </li>
+   <li><a href="miscelnea.html" class="no-ch">Miscelánea</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="04_misin_encendido_de_farolas.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="06_misin_final_un_fantasma_para_halloween.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">05. Misión ¡Aviso de golpes!</h1></header>
+<article class="iDevice_wrapper textIdevice" id="id1">
+<div class="iDevice emphasis0" >
+<div id="ta1_115_2" class="block iDevice_content">
+<div class="exe-text"><p><img src="ObjetivoMision.png" alt="ObjetivoDeMisión" title="ObjetivoDeMisión" width="204" height="115" /></p>
+<p>En esta misión vamos a encender y apagar unos LEDs cuando se acciona el interruptor de choque.</p>
+<p>Para ello vamos a utilizar los valores booleanos (<em>verdadero y falso o 1 y 0 </em>) entregado por el sensor de choque y si es “1” encender un LED verde mientras el rojo se mantiene apagado y si es “0” apagamos el verde y encendemos el rojo. </p>
+<p style="text-align: justify;">El sensor de colisión o choque, es un interruptor de acción rápida del tipo final de carrera que se activa con muy poca fuerza física. Es un módulo de encendido y apagado digital necesario para la electrónica elemental.</p>
+<p><img src="SensoColision.png" alt="SensorColisión" title="SensorColisión" width="300" height="138" style="display: block; margin-left: auto; margin-right: auto;" /></p>
+<p style="text-align: center;"><em><span style="font-size: 10pt;">Sensor de colisión o final de carrera.</span></em></p>
+<p style="text-align: justify;"><span style="font-size: 12pt;">En el apartado de bloques de programación, se encuentra en "Sensores".</span></p>
+<p><span style="font-size: 12pt;"><img src="SensorColision2.png" alt="SensorColisión2" title="SensorColisión2" width="600" height="358" style="display: block; margin-left: auto; margin-right: auto;" /></span></p>
+<p><img src="ElementosATrabajar.png" alt="ElementosATrabajar" title="ElementosATrabajar" width="204" height="115" /></p>
+<ul style="list-style-type: square;">
+<li>Entorno de programación por bloques ArduinoBlocks</li>
+<li>Sensor de choque.</li>
+<li>Uso de variables.</li>
+<li>Lógica booleana. </li>
+<li>Lógica: comparaciones de igualdad.</li>
+</ul>
+<table border="1" style="width: 100%; margin-left: auto; margin-right: auto; height: 142px;">
+<tbody>
+<tr style="height: 142px;">
+<td style="width: 26.3924%; height: 142px;"><img src="VariableBooleana.png" alt="Booleana" title="Booleana" width="400" height="76" /></td>
+<td style="width: 27.7635%; height: 142px;"><img src="Condicionales.1.png" alt=" Condicionales" title=" Condicionales" width="816" height="186" /></td>
+<td style="width: 23.8646%; height: 142px;"><img src="Colision_SensorGolpe.png" alt="VariableSensor" title="VariableSensor" width="501" height="136" /></td>
+<td style="width: 21.9795%; height: 142px;"><img src="Colision_SensorGolpe2.png" alt="ColisiónSensorGolpe2" title="ColisiónSensorGolpe2" width="499" height="184" /></td>
+</tr>
+</tbody>
+</table>
+<p></p>
+<p><img src="FeedBack.png" alt="FeedBack" title="FeedBack" width="204" height="115" /></p></div><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbackbutton" value="Mostrar retroalimentación" /></div><div class="feedback js-feedback js-hidden"><p><img src="ProgrmaChoque.png" alt="ProgramaChoque" title="ProgramaChoque" width="800" height="708" style="display: block; margin-left: auto; margin-right: auto;" /></p></div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="04_misin_encendido_de_farolas.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="06_misin_final_un_fantasma_para_halloween.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_intef_js.js"></script></body></html>
