@@ -1,2 +1,1 @@
-# tallerEASYPlug
-Taller con EASYPlug y ArduinoBlocks
+https://pablomoraga.github.io/tallerEASYPlug/index.html
